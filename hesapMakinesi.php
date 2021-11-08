@@ -23,22 +23,22 @@ class HesapMakinesi
 
     function cikarma($sayi1, $sayi2)
     {
-        return "Çıkarma İşlemi : " . $sayi1-$sayi2 . "<br>"
+        return "Çıkarma İşlemi : " . $sayi1-$sayi2 . "<br>";
     }
 
     function bolme($sayi1, $sayi2)
     {
-        return "Bölme İşlemi : " . $sayi1 / $sayi2 . "<br>"
+        return "Bölme İşlemi : " . $sayi1 / $sayi2 . "<br>";
     }
 
     function carpma($sayi1, $sayi2)
     {
-        return "Çarpma İşlemi : " . $sayi1 * $sayi2 . "<br>"
+        return "Çarpma İşlemi : " . $sayi1 * $sayi2 . "<br>";
     }
 }
 
 $calculator= new HesapMakinesi;
-echo $calculator->cikarma(15,7)
+echo $calculator->cikarma(15,7);
 
 
 ?>
