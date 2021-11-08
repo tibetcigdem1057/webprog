@@ -39,3 +39,6 @@ class HesapMakinesi
 
 $calculator= new HesapMakinesi;
 echo $calculator->cikarma(15,7)
+
+
+?>
